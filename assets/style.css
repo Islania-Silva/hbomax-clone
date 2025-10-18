@@ -1,0 +1,5 @@
+@import url(global.css);
+
+.primary-color {
+    background: var(--primary-color);
+}
