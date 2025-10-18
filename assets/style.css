@@ -3,3 +3,12 @@
 .primary-color {
     background: var(--primary-color);
 }
+.text-color {
+    color: var(--text-color);
+}
+.divider-bg-color {
+    background: var(--divider-bg-color);
+    width: 234px;
+    height: 4px;
+    margin: auto;
+}
