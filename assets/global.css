@@ -8,9 +8,8 @@
   --btn-bg-color-gradient: linear-gradient(
     45deg,
     #9b34ef 0%,
-    #490cb0 20%,
-    transparent 50%
-  );
+    #490cb0 40%,
+    transparent 100%);
   --btn-link-bg-color: #fff;
   --btn-link-color: #000;
   --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);

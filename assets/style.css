@@ -11,4 +11,109 @@
     width: 234px;
     height: 4px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.tertiary-color {
+    background: var(--tertiary-color);
+    padding: 0.4rem;
+    border-radius: 1rem;
+    width: 170px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav-bg-color {
+    background: var(--nav-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 127px;
+}
+.btn-bg-color-gradient {
+    background: var(--btn-bg-color-gradient);
+    padding: 15px;
+    width: 240px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    animation: assine 2.7s linear infinite;
+}
+.logo {
+    margin-top: 35px;
+}
+.login {
+    align-items: center;
+    display: flex;
+    gap: 35px;
+}
+.login h5 {
+    letter-spacing: 2px;
+}
+.icons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+    width: 290px;
+    /* margin: auto; */
+    margin-bottom: 40px;
+    justify-content: center;
+    gap: 30px 20px;
+}
+.texto {
+    /* padding-top: 40px; */
+    text-align: center;
+}
+.texto p {
+    font-size: 33px;
+}
+.texto h1 {
+    font-size: 47px;
+}
+.principal {
+    background: linear-gradient(115deg,#010121, #321f41);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite alternate;
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    /* padding-top: 80px; */
+}
+.assinatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 290px;
+    /* margin: auto; */
+    width: 300px;
+    text-align: center;
+}
+.assinatura p {
+    font-size: 20px;
+}
+.assinatura .pagamento {
+    font-size: 15px;
+    font-family: 'Quicksand';
+}
+.assinatura strong {
+    font-size: 35px;
+}
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+@keyframes assine {
+  0% { transform: rotate(0); }
+  3% { transform: rotate(-10deg); }
+  6% { transform: rotate(10deg); }
+  9% { transform: rotate(-10deg); }
+  12% { transform: rotate(10deg); }
+  15% { transform: rotate(0); } /* fim do tremor */
+  100% { transform: rotate(0); } /* pausa de 2s */
 }
