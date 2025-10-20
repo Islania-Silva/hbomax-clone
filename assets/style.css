@@ -109,6 +109,13 @@ header {
 .planos {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.planos .conheca {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 40px;
 }
 .planos p {
     font-size: 30px;
@@ -117,6 +124,44 @@ header {
     background: var(--card-bg-color);
     height: 633px;
     width: 378px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-bg-color p {
+    font-size: 15px;
+}
+.card-bg-color h2 {
+    padding-top: 40px;
+}
+.cards button {
+    background: linear-gradient(45deg,#9b34ef 0%,#490cb0 40%,transparent 100%);
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 280px;
+    margin-top: 90px;
+}
+.secondary-color {
+    color: var(--secondary-color);
+    font-size: 24px;
+}
+ul {
+    padding: 40px;
+    list-style: none;
+}
+li {
+    padding-bottom: 10px;
+}
+li::before {
+    content: "⁺ ";
+    font-size: 30px;
 }
 .overflow {
     overflow: hidden;
