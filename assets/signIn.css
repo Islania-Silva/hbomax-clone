@@ -1,0 +1,71 @@
+@import url(global.css);
+
+.primary-color {
+    background: var(--primary-color);
+}
+.text-color {
+    color: var(--text-color);
+}
+.nav-bg-color {
+    background: var(--nav-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 127px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 0 40px; /* adiciona respiro lateral */
+}
+.logo {
+    margin-top: 35px;
+}
+.login {
+    align-items: center;
+    display: flex;
+    gap: 35px;
+}
+.tertiary-color {
+    background: var(--tertiary-color);
+    padding: 0.4rem;
+    border-radius: 1rem;
+    width: 170px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.links a {
+    text-decoration: none;
+    color: #af99c3;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+footer {
+    margin-top: 140px;
+}
+footer p {
+    font-size: 10px;
+    color: #af99c3;
+}
+.direitos {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
