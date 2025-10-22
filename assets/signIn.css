@@ -50,7 +50,7 @@
     font-size: 13px;
 }
 footer {
-    margin-top: 140px;
+    margin-top: 70px;
 }
 footer p {
     font-size: 10px;
@@ -75,6 +75,7 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     margin: auto;
     margin-top: 150px;
     width: 386px;
@@ -100,12 +101,23 @@ input {
     font-size: 18px;
     margin: auto;
 }
+.entrar h3, .login h5 {
+    letter-spacing: 2px;
+}
 .loginn {
     display: flex;
     flex-direction: column;
+    width: 316px;
+    height: 170px;
+    text-align: center;
+}
+.loginn p {
+    margin-bottom: 10px;
 }
 .esqueceu-senha {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 90px;
+    justify-content: space-between;
 }
