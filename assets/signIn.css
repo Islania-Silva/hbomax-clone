@@ -101,6 +101,16 @@ input {
     font-size: 18px;
     margin: auto;
 }
+input:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
+    color: rgb(166, 75, 75);
+}
+input:focus {
+    outline: none; /* Tira a borda padrão para acessibilidade */
+    border: 2px solid #92509e; /* cor de destaque personalizada */
+    box-shadow: 0 0 5px #a12cb6; /* dá um leve brilho */
+}
+
 .entrar h3, .login h5 {
     letter-spacing: 2px;
 }

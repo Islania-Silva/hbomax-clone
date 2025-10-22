@@ -44,6 +44,9 @@
     border: none;
     animation: assine 2.7s linear infinite;
 }
+.btn-bg-color-gradient a {
+    text-decoration: none;
+}
 header {
     margin-top: 127px;
 }
@@ -57,6 +60,9 @@ header {
 }
 .login h5 {
     letter-spacing: 2px;
+}
+.login a {
+    text-decoration: none;
 }
 .icons {
     align-items: center;
@@ -161,6 +167,9 @@ header {
 }
 .banner .h2 {
     width: 265px;
+}
+.content:nth-child(1):hover {
+    background-image: url(../images/hbo-hover_0.webp);
 }
 .secondary-color {
     color: var(--secondary-color);
