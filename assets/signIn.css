@@ -69,3 +69,43 @@ footer p {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+.container {
+    background: #0E0E32;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 150px;
+    width: 386px;
+    height: 465px;
+    text-align: center;
+}
+.btn-bg-color-gradient {
+    background: var(--btn-bg-color-gradient);
+    padding: 15px;
+    width: 158px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+}
+input {
+    background: #0B0B28;
+    border: 1px solid #8B8B99;
+    border-radius: 7px;
+    padding: 15px;
+    width: 308px;
+    font-size: 18px;
+    margin: auto;
+}
+.loginn {
+    display: flex;
+    flex-direction: column;
+}
+.esqueceu-senha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
